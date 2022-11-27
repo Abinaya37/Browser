@@ -23,8 +23,6 @@ public class Browser_Launch {
 		
 		driver.manage().window().refresh();
 		
-		driver.close();
-
 		driver.quit();
 
 	}
