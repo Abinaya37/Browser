@@ -20,6 +20,9 @@ public class Browser_Launch {
 		String currentUrl = driver.getCurrentUrl();
 		System.out.println(currentUrl);
 
+		
+		driver.manage().window().refresh();
+		
 		driver.close();
 
 		driver.quit();
